@@ -48,8 +48,6 @@ RUN apk update \
 
 VOLUME /data
 
-WORKDIR /data
-
 USER plaso
 
 ENTRYPOINT ["log2timeline.py"]
